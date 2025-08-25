@@ -1,0 +1,13 @@
+@import url(colors.css);
+
+footer {
+  display: flex;
+  gap: 1rem;
+  align-items: center;
+}
+.vertical-line {
+  width: 1px;
+  height: 100%;
+  background: var(--color-primary);
+  float: left;
+}
