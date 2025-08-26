@@ -2,6 +2,7 @@
   --color-bg: #3a6272;
 
   --color-primary: #c8a75e;
+  --color-secondary: var(--color-bg);
   --color-black: #333;
-  --color-white: ;
+  --color-white: #fff;
 }

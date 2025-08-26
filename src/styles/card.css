@@ -6,4 +6,13 @@
   justify-content: center;
   min-height: 100px;
   min-width: 100px;
+  max-width: 800px;
+  border-radius: 1rem;
+}
+
+.card-normal {
+  background: var(--color-primary);
+  color: var(--color-secondary);
+  border: 3px solid var(--color-black);
+  border-bottom: 10px solid var(--color-black);
 }

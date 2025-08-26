@@ -1,7 +1,7 @@
 @import url(./colors.css);
 @import url(./header.css);
 @import url(./footer.css);
-@import url(./layout.css);
+@import url(./layout/layout.css);
 @import url(./card.css);
 
 :root {
@@ -17,6 +17,12 @@
   text-rendering: optimizeLegibility;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+}
+
+h1,
+h2,
+p {
+  margin: 0;
 }
 
 a {
@@ -64,8 +70,19 @@ h1 {
   filter: drop-shadow(0 0 2em #f7df1eaa);
 }
 
-.read-the-docs {
-  color: #888;
+.title-banner {
+  padding: 1rem 2rem;
+  display: flex;
+  flex-direction: column;
+  align-items: start;
+  gap: 1rem;
+
+  h1,
+  h2,
+  p {
+    text-align: justify;
+    -webkit-text-stroke: 1px var(--color-black);
+  }
 }
 
 button {
