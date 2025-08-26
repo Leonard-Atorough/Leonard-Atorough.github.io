@@ -1,9 +1,13 @@
-@import url(./colors.css);
+@import url(./base/colors.css);
 
 .site-header {
   width: 100%;
-  padding: 10px 40px;
+  padding: 0 3rem;
   box-sizing: border-box;
+  position: sticky;
+  top: 10px;
+  background: var(--color-bg);
+  z-index: 1;
 }
 
 .header-inner {
@@ -12,8 +16,8 @@
   align-items: center;
   justify-content: space-between;
   border-radius: 5px 5px 10px 10px;
-  border: 3px solid var(--color-primary);
-  border-bottom: 7px solid var(--color-primary);
+  border: 3px solid var(--color-black);
+  border-bottom: 7px solid var(--color-black);
   display: flex;
   padding: 10px 40px;
 }
@@ -32,9 +36,13 @@
 
 .nav-link,
 .nav-item {
-  font-size: 1.25rem;
+  font-size: 1.333 rem;
+}
+
+.nav-item {
+  text-shadow: -1px 1px 1px var(--color-black);
 }
 
 .nav-link img {
-  width: 30px;
+  width: 2rem;
 }

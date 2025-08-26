@@ -1,4 +1,4 @@
-@import url(colors.css);
+@import url(./base/colors.css);
 
 footer {
   display: flex;
