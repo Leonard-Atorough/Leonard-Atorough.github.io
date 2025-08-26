@@ -1,8 +1,8 @@
 import Navigo from "navigo";
 
 export function createRouter(loader) {
-  const router = new Navigo("/", { strategy: "HASH" });
-  var content = document.getElementById("app");
+  const router = new Navigo("/");
+  console.log("router");
   router
     .on({
       "/": async () => {
@@ -10,6 +10,7 @@ export function createRouter(loader) {
         router.updatePageLinks();
       },
       "/projects": async () => {
+        console.log("projects");
         await loader.loadPage("projects");
         router.updatePageLinks();
       },
