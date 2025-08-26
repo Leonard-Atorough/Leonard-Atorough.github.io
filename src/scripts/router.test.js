@@ -1,5 +1,5 @@
 import { beforeEach, vi, expect, describe, assert } from "vitest";
-import { createRouter } from "./router";
+import { createRouter } from "./router.js";
 
 let loader;
 //arrange

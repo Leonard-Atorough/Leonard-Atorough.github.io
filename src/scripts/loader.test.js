@@ -1,5 +1,5 @@
 import { beforeEach, vi, expect, describe, assert, afterEach } from "vitest";
-import { loadPage } from "./loader";
+import { loadPage } from "./loader.js";
 
 const originalFetch = global.fetch;
 
