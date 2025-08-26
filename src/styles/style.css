@@ -195,6 +195,22 @@ button:focus-visible {
   }
 }
 
+@media (max-width: 600px) {
+  .title-banner {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .about-section {
+    flex-direction: column;
+  }
+
+  .skill-list {
+    flex-direction: column;
+    gap: 2rem;
+  }
+}
+
 @keyframes slide-in {
   from {
     translate: 25vw 0;
