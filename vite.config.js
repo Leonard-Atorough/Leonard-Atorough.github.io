@@ -1,7 +1,7 @@
-export default {
-  base: "/Leonard-Atorough.github.io/",
+export default ({ command }) => ({
+  base: command === "build" ? "/Leonard-Atorough.github.io/" : "/",
   test: {
     environment: "jsdom",
     globals: true,
   },
-};
+});
