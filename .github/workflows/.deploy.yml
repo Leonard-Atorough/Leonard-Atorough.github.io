@@ -20,11 +20,17 @@ jobs:
       - name: Install dependencies
         run: npm install
 
+      - name: Clean public/pages
+        run: rm -rf public/pages
+
+      - name: Copy pages to public
+        run: cp -r src/pages public/pages
+
       - name: Build
         run: npm run build
 
-      # - name: Test
-      #   run: npm run test
+      - name: Copy pages to dist/src/pages
+        run: mkdir -p dist/src/pages && cp -r src/pages/* dist/src/pages/
 
       - name: Deploy to GitHub Pages
         uses: peaceiris/actions-gh-pages@v4

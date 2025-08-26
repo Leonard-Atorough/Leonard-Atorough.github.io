@@ -1,6 +1,6 @@
 export async function loadPage(page) {
   try {
-    const route = `/src/pages/${page}.html`;
+    const route = `./src/pages/${page}.html`;
     var response = await fetch(route);
     if (!response.ok) {
       throw new Error(`Response status: ${response.status}`);
