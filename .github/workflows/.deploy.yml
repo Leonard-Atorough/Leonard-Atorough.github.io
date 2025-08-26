@@ -20,8 +20,8 @@ jobs:
       - name: Install dependencies
         run: npm install
 
-      - name: Clean public/pages
-        run: rm -rf public/pages
+      - name: Clean dist/src folder folder
+        run: rm -rf src
 
       - name: Build
         run: npm run build
