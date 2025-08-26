@@ -1,7 +1,7 @@
 import Navigo from "navigo";
 
 export function createRouter(loader) {
-  const router = new Navigo("/");
+  const router = new Navigo("", { hash: true });
   console.log("router");
   router
     .on({
