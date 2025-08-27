@@ -1,9 +1,8 @@
 @import url(./base/colors.css);
 
 footer {
-  display: flex;
   gap: 1rem;
-  align-items: center;
+  min-height: 8rem;
 }
 .vertical-line {
   width: 1px;

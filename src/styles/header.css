@@ -2,7 +2,7 @@
 
 .site-header {
   width: 100%;
-  padding: 0 3rem;
+  padding: 0 1rem;
   box-sizing: border-box;
   position: sticky;
   top: 10px;
@@ -23,7 +23,7 @@
 }
 
 .nav-social .nav-list {
-  gap: 5rem;
+  gap: 4rem;
 }
 
 .nav-list {
