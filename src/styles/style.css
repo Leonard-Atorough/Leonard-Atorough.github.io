@@ -28,7 +28,7 @@ ul,
 h1,
 h2,
 p {
-  -webkit-text-stroke: 1px var(--color-black);
+  -webkit-text-stroke: 0.5px var(--color-black);
 }
 
 h1 {
