@@ -21,16 +21,16 @@ jobs:
         run: npm install
 
       - name: Clean dist/src folder folder
-        run: rm -rf dist/src
+        run: rm -rf dist/src && echo "Cleaned dist/src folder"
 
       - name: Build
-        run: npm run build
+        run: npm run build && echo "Build completed"
 
       - name: Test
-        run: npm test
+        run: npm test && echo "Test completed"
 
       - name: Copy pages to dist/src/pages
-        run: mkdir -p dist/src/pages && cp -r src/pages/* dist/src/pages/
+        run: mkdir -p dist/src/pages && cp -r src/pages/* dist/src/pages/ 
 
       - name: copy assets to dist/src
         run: mkdir -p dist/src/assets && cp -r src/assets/* dist/src/assets/
