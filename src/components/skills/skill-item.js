@@ -9,9 +9,8 @@ class SkillItem extends LitElement {
   static styles = css`
     li {
       list-style: none;
-      display: inline-block;
       box-sizing: border-box;
-      padding: 1rem;
+      padding: 1.5rem;
       border: 2px solid var(--color-black);
       border-bottom: 10px solid var(--color-black);
       border-radius: 1rem;
@@ -24,8 +23,8 @@ class SkillItem extends LitElement {
     }
 
     img {
-      max-width: 100px;
-      max-height: 100px;
+      max-width: 80px;
+      max-height: 80px;
       display: block;
       object-fit: cover;
       width: 100%;

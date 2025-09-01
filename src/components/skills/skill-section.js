@@ -21,7 +21,7 @@ class SkillSection extends LitElement {
 
     ul {
       padding: 0;
-      margin: 0;
+      margin: 2rem 0;
       list-style: none;
       display: flex;
       flex: 1 1 auto;
