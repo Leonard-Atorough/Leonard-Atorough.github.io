@@ -26,6 +26,9 @@ jobs:
       - name: Build
         run: npm run build
 
+      - name: Test
+        run: npm test
+
       - name: Copy pages to dist/src/pages
         run: mkdir -p dist/src/pages && cp -r src/pages/* dist/src/pages/
 

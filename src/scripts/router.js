@@ -21,7 +21,6 @@ export function createRouter(loader) {
           { alt: "A Dotnet C# Icon", src: "" },
           { alt: "A Node JS Icon", src: "" },
         ];
-        skills.innerHTML = "";
         skills.appendChild(skillSection);
         router.updatePageLinks();
       },

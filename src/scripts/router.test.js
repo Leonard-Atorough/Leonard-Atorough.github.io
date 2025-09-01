@@ -6,7 +6,9 @@ let loader;
 beforeEach(() => {
   loader = { loadPage: vi.fn() };
 
-  document.body.innerHTML = `<main id="app></main>`;
+  document.body.innerHTML = `<main id="app">
+    <div id="skills"></div>
+  </main>`;
 });
 
 describe("createRouter", () => {
