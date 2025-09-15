@@ -1,0 +1,82 @@
+[
+  {
+    "id": "proj-01",
+    "title": "Todo List SPA",
+    "summary": "A single‑page app for managing personal tasks.",
+    "details": "Build a vanilla‑JS (or React/Vue) todo list with add, edit, delete, and filter (all/active/completed). Persist data in localStorage so the list survives page reloads.",
+    "link": "https://github.com/your‑username/todo-list-spa",
+    "imageUrl": "../assets/images/320_placeholder.png"
+  },
+  {
+    "id": "proj-02",
+    "title": "Weather Dashboard",
+    "summary": "Show current weather and a 5‑day forecast for any city.",
+    "details": "Consume a public weather API (e.g., OpenWeatherMap). Display temperature, humidity, wind speed, and an icon. Include a search box and store recent searches in localStorage.",
+    "link": "https://github.com/your‑username/weather-dashboard",
+    "imageUrl": "../assets/images/320_placeholder.png"
+  },
+  {
+    "id": "proj-03",
+    "title": "Markdown Previewer",
+    "summary": "Live preview of markdown text as HTML.",
+    "details": "Create a split‑view interface where the left pane is a textarea for markdown input and the right pane renders the parsed HTML in real time. Use a library like marked.js or showdown.",
+    "link": "https://github.com/your‑username/markdown-previewer",
+    "imageUrl": "../assets/images/320_placeholder.png"
+  },
+  {
+    "id": "proj-04",
+    "title": "Currency Converter",
+    "summary": "Convert amounts between major world currencies.",
+    "details": "Fetch exchange rates from a free API (e.g., exchangerate.host). Allow the user to select source and target currencies and enter an amount. Show the converted value instantly.",
+    "link": "https://github.com/your‑username/currency-converter",
+    "imageUrl": "../assets/images/320_placeholder.png"
+  },
+  {
+    "id": "proj-05",
+    "title": "Quiz App",
+    "summary": "A multiple‑choice trivia game with scoring.",
+    "details": "Pull a set of questions from the Open Trivia DB API or hard‑code a small pool. Randomize question order, track correct answers, and display a final score with a restart button.",
+    "link": "https://github.com/your‑username/quiz-app",
+    "imageUrl": "../assets/images/320_placeholder.png"
+  },
+  {
+    "id": "proj-06",
+    "title": "Personal Portfolio Site",
+    "summary": "Static site showcasing your bio, projects, and contact info.",
+    "details": "Build a responsive, single‑page portfolio using HTML/CSS (Flexbox/Grid) and a touch of JavaScript for smooth scrolling or a light‑box gallery. Deploy to GitHub Pages or Netlify.",
+    "link": "https://github.com/your‑username/portfolio-site",
+    "imageUrl": "../assets/images/320_placeholder.png"
+  },
+  {
+    "id": "proj-07",
+    "title": "Chat Widget (Mock)",
+    "summary": "A simple front‑end chat interface that echoes user messages.",
+    "details": "Create a UI with a message list and input box. When the user sends a message, display it and immediately show a bot reply like “You said: …”. No backend required—just practice DOM manipulation and event handling.",
+    "link": "https://github.com/your‑username/mock-chat-widget",
+    "imageUrl": "../assets/images/320_placeholder.png"
+  },
+  {
+    "id": "proj-08",
+    "title": "Expense Tracker",
+    "summary": "Track daily expenses and visualize totals.",
+    "details": "Allow users to add expense entries (amount, category, date). Store data in localStorage. Show a running total and a simple bar chart (e.g., Chart.js) summarizing spending per category.",
+    "link": "https://github.com/your‑username/expense-tracker",
+    "imageUrl": "../assets/images/320_placeholder.png"
+  },
+  {
+    "id": "proj-09",
+    "title": "URL Shortener Front‑End",
+    "summary": "Interface for creating short URLs via a public API.",
+    "details": "Integrate with a free shortening service (e.g., shrtco.de). User enters a long URL, clicks “Shorten”, and sees the shortened link with a copy‑to‑clipboard button.",
+    "link": "https://github.com/your‑username/url-shortener-frontend",
+    "imageUrl": "../assets/images/320_placeholder.png"
+  },
+  {
+    "id": "proj-10",
+    "title": "Memory Game",
+    "summary": "Classic card‑matching game with a timer.",
+    "details": "Generate a grid of paired cards (icons or emojis). Flip cards on click, detect matches, and count moves. End the game when all pairs are found and display the elapsed time.",
+    "link": "https://github.com/your‑username/memory-game",
+    "imageUrl": "../assets/images/320_placeholder.png"
+  }
+]
