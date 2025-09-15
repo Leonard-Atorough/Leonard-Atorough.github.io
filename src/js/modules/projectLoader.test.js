@@ -60,12 +60,12 @@ describe("loadProjects", () => {
     global.fetch = mockFetch(null, false);
 
     await expect(loadProjects()).rejects.toThrow(
-      "Failed to load HTML from src/data/projects.json: Not found"
+      "Failed to load HTML from data/projects.json: Not found"
     );
 
     expect(consoleSpy).toHaveBeenCalledOnce();
     expect(consoleSpy).toHaveBeenLastCalledWith(
-      "Failed to load HTML from src/data/projects.json: Not found"
+      "Failed to load HTML from data/projects.json: Not found"
     );
   });
 });

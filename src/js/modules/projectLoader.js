@@ -1,7 +1,7 @@
 import { Project } from "./project";
 
 export async function loadProjects() {
-  const DATA_URL = "src/data/projects.json";
+  const DATA_URL = "data/projects.json";
   const container = document.getElementById("projects-container");
   console.log(container);
 
