@@ -2,69 +2,66 @@
 <html lang="en">
 
 <head>
-  <meta charset="UTF-8" />
-  <link rel="icon" type="image/svg+xml" href="/vite.svg" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <meta name="description"
-    content="Leonard Atorough's personal website. A QA Engineer and aspiring software developer." />
-  <meta name="author" content="Leonard Atorough" />
-  <meta name="keywords"
-    content="Leonard, Atorough, Leonard Atorough, QA Engineer, Software Developer, Portfolio, Projects, Contact" />
-  <meta name="robots" content="index, follow" />
-  <title>Leonard Atorough</title>
-  <script type="module" crossorigin src="/assets/index-lTVXHayG.js"></script>
-  <link rel="stylesheet" crossorigin href="/assets/index-0U2GEX2p.css">
+  <meta charset="UTF-8">
+  <title>Leonard Atorough - Aspiring Front-End Developer</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <script type="module" crossorigin src="/assets/index-Cs1_O-cT.js"></script>
+  <link rel="stylesheet" crossorigin href="/assets/index-D4p-XKZ_.css">
 </head>
 
 <body>
-  <header class="site-header" aria-label="Site header">
-    <div class="container header-inner">
-      <nav class="nav-primary" aria-label="Main navigation">
-        <ul class="nav-list">
-          <li class="nav-item">
-            <a class="nav-link" href="/" data-navigo>About Me</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="/projects" data-navigo>Projects</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="/writings" data-navigo>Writings</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="/contact" data-navigo>Contact</a>
-          </li>
-        </ul>
-      </nav>
 
-      <nav class="nav-social" aria-label="Socials and CV">
-        <ul class="nav-list">
-          <li class="nav-item">
-            <a href="https://github.com/Leonard-Atorough" target="_blank" rel="noopener noreferrer"
-              class="nav-link"><img src="/assets/github-CcvuTvSE.png" alt="A Github Icon" /></a>
-          </li>
-          <li class="nav-item">
-            <a href="https://www.linkedin.com/in/leonardatorough" target="_blank" rel="noopener noreferrer"
-              class="nav-link"><img src="/assets/linkedin-C0DlWYmF.png" alt="A LinkedIn Icon" /></a>
-          </li>
-          <li class="nav-item">
-            <a href="/assets/put cv pdf here.pdf" download class="nav-link"><img src="/assets/downloads-ZYJ_3hIR.png"
-                alt="A Download Icon" /></a>
-          </li>
-        </ul>
-      </nav>
+  <header class="header-section flex flex-row align-center justify-between gap-4">
+    <button id="nav-toggle" class="flex flex-col gap-1 hamburger-menu btn -plain " aria-label="Toggle navigation menu"
+      aria-controls="site-nav" aria-expanded="false">
+      <span class="bar"></span>
+      <span class="bar"></span>
+      <span class="bar"></span>
+    </button>
+    <h1 class="title">Leonard Atorough</h1>
+    <nav id="site-nav" class="flex flex-row flex-col-md gap-1 site-nav" aria-label="Site navigation menu">
+      <a class="item" aria-label="Projects" href="#projects">Projects</a>
+      <a class="item" aria-label="Skills" href="#skills">Skills</a>
+      <a class="item" aria-label="Experience" href="#experience">Experience</a>
+      <a class="item" aria-label="Contact" href="#contact">Contact</a>
+    </nav>
+    <div class="flex flex-row gap-3">
+      <a href=""><img alt="P" src=""></a>
+      <a href=""><img alt="P" src=""></a>
     </div>
   </header>
-  <main id="app" role="main"></main>
-  <footer class="flex-row flex-center">
-    <a href="https://www.flaticon.com/free-icons/linkedin" title="linkedin icons">Linkedin - Github icons created by
-      riajulislam - Flaticon</a>
-    <div class="vertical-line" style="height: 35px"></div>
-    <a href="https://www.flaticon.com/free-icons/save" title="save icons">Save icons created by Bharat Icons -
-      Flaticon</a>
-    <div class="vertical-line" style="height: 35px"></div>
-    <a href="https://www.flaticon.com/free-icons/javascript" title="web icons">HTML - CSS - JS icons created by edt.im -
-      Flaticon</a>
-  </footer>
+
+  <main class="flex flex-col">
+    <section id="hero" class="hero-section container flex flex-row flex-col-sm gap-6">
+      <div class="basis-1/2 grow-0 image">
+        <img src="/assets/profile-CVbUgi0u.jpg" alt="Leonard Atorough's Profile Picture" />
+      </div>
+      <div class="hero-text flex flex-col align-start justify-end gap-6 basis-1/2 grow-0">
+        <h1 class="title">Hello, World. I'm Leonard Atorough, an Aspiring Software Developer Based in Scotland.</h1>
+        <p class="content">Hi there, welcome to my page. I'm an aspiring software developer working on transitioning
+          from Quality
+          Assurance to Software Engineering. Follow my journey here.</p>
+        <button class="btn btn-tertiary button">See My Work</button>
+      </div>
+    </section>
+
+    <section id="projects" class="container flex flex-col align-left gap-4">
+      <h2>PROJECTS</h2>
+      <div id="projects-container" class="grid"></div>
+    </section>
+
+    <section id="contact" class="container flex flex-row justify-center">
+      <form id="contact-form" class="flex flex-col gap-4">
+        <div>
+          <input type="text" name="name" placeholder="Your name" required>
+          <input type="email" name="email" placeholder="Email" required>
+        </div>
+        <textarea name="message" placeholder="Message" required></textarea>
+        <button class="btn btn-primary" type="submit">Send</button>
+      </form>
+    </section>
+  </main>
+
 </body>
 
 </html>
