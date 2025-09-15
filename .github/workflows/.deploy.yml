@@ -29,8 +29,8 @@ jobs:
       - name: Test
         run: npm test && echo "Test completed"
 
-      - name: Copy pages to dist/src/pages
-        run: mkdir -p dist/src/pages && cp -r src/pages/* dist/src/pages/ 
+      # - name: Copy pages to dist/src/pages
+      #   run: mkdir -p dist/src/pages && cp -r src/pages/* dist/src/pages/ 
 
       - name: copy assets to dist/src
         run: mkdir -p dist/src/assets && cp -r src/assets/* dist/src/assets/
