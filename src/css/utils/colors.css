@@ -11,7 +11,7 @@
   --text: var(var(--black));
 }
 
-@media (prefers-color-scheme: dark) {
+/* @media (prefers-color-scheme: dark) {
   :root {
     --text: hsl(148, 37%, 90%);
     --background: hsl(144, 35%, 15%);
@@ -21,4 +21,4 @@
 
     --text: var(var(--white));
   }
-}
+} */
