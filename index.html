@@ -10,8 +10,8 @@
   <link rel="shortcut icon" href="/assets/favicon-B65CqhkM.ico" />
   <link rel="apple-touch-icon" sizes="180x180" href="/assets/apple-touch-icon-Cd6F4MHn.png" />
   <link rel="manifest" href="/assets/site-gMKqVTQ8.webmanifest" />
-  <script type="module" crossorigin src="/assets/index-BEdrKUa3.js"></script>
-  <link rel="stylesheet" crossorigin href="/assets/index-D4p-XKZ_.css">
+  <script type="module" crossorigin src="/assets/index-p8KRxNC2.js"></script>
+  <link rel="stylesheet" crossorigin href="/assets/index-CNf2drgi.css">
 </head>
 
 <body>
@@ -30,16 +30,13 @@
       <a class="item" aria-label="Experience" href="#experience">Experience</a>
       <a class="item" aria-label="Contact" href="#contact">Contact</a>
     </nav>
-    <div class="flex flex-row gap-3">
-      <a href=""><img alt="P" src=""></a>
-      <a href=""><img alt="P" src=""></a>
-    </div>
+    <img src="" alt="dark mode" />
   </header>
 
   <main class="flex flex-col">
     <section id="hero" class="hero-section container flex flex-row flex-col-sm gap-6">
       <div class="basis-1/2 grow-0 image">
-        <img src="/assets/profile-CVbUgi0u.jpg" alt="Leonard Atorough's Profile Picture" />
+        <img src="assets/images/profile.jpg" alt="Leonard Atorough's Profile Picture" />
       </div>
       <div class="hero-text flex flex-col align-start justify-end gap-6 basis-1/2 grow-0">
         <h1 class="title">Hello, World. I'm Leonard Atorough, an Aspiring Software Developer Based in Scotland.</h1>
@@ -47,6 +44,11 @@
           from Quality
           Assurance to Software Engineering. Follow my journey here.</p>
         <button class="btn btn-tertiary button">See My Work</button>
+        <span class="flex flex-row gap-4">
+          <h3>Socials:</h3>
+          <a href=""><img alt="P" src=""></a>
+          <a href=""><img alt="P" src=""></a>
+        </span>
       </div>
     </section>
 
@@ -55,7 +57,10 @@
       <div id="projects-container" class="grid"></div>
     </section>
 
-    <section id="contact" class="container flex flex-row justify-center">
+    <div id="modal-overlay" class="modal-overlay hidden"></div>
+
+    <section id="contact" class="container flex flex-col align-center justify-center gap-4">
+      <h2>Contact Me</h2>
       <form id="contact-form" class="flex flex-col gap-4">
         <div>
           <input type="text" name="name" placeholder="Your name" required>
