@@ -3,8 +3,8 @@
   line-height: 1.5;
   font-weight: 400;
   color-scheme: light dark;
-  color: var(--color-text);
-  background-color: var(--color-background);
+  color: var(--text);
+  background-color: var(--background);
 
   font-synthesis: none;
   text-rendering: optimizeLegibility;
@@ -118,6 +118,11 @@ textarea:not([rows]) {
   scroll-margin-block: 5ex;
 }
 
+h3,
+p {
+  color: var(--text);
+}
+
 p::selection {
-  background: var(--color-primary);
+  background: var(--primary);
 }

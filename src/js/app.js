@@ -3,5 +3,5 @@ import { loadProjects } from "./modules/projectLoader";
 
 document.addEventListener("DOMContentLoaded", () => {
   InitNav();
-  loadProjects();
+  loadProjects(true);
 });

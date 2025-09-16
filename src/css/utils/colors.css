@@ -1,20 +1,24 @@
 :root {
-  --color-text: #0c090a;
-  --color-background: #faf3f6;
-  --color-primary: #a95b67;
-  --color-secondary: #feb66e;
-  --color-accent: #f4ec42;
+  --text: hsl(148, 37%, 10%);
+  --background: hsl(144, 37%, 92%);
+  --primary: hsl(147, 36%, 29%);
+  --secondary: hsl(223, 39%, 70%);
+  --accent: hsl(249, 38%, 43%);
 
-  --color-black: #0c090a;
-  --color-white: #faf3f6;
+  --black: #0c090a;
+  --white: #faf3f6;
+
+  --text: var(var(--black));
 }
 
-/* @media (prefers-color-scheme: dark) {
+@media (prefers-color-scheme: dark) {
   :root {
-    --color-text: #f6f3f4;
-    --color-background: #0a0507;
-    --color-primary: #a45662;
-    --color-secondary: #934a01;
-    --color-accent: #bcb30b;
+    --text: hsl(148, 37%, 90%);
+    --background: hsl(144, 35%, 15%);
+    --primary: hsl(147, 36%, 71%);
+    --secondary: hsl(223, 39%, 30%);
+    --accent: hsl(249, 38%, 57%);
+
+    --text: var(var(--white));
   }
-} */
+}

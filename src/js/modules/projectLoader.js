@@ -1,9 +1,14 @@
 import { Project } from "./project";
 
-export async function loadProjects() {
+/**
+ *
+ * @param {boolean} [featuredOnly=false] – If true, render only projects
+ *                                          that have `featured: true`.
+ */
+
+export async function loadProjects(featuredOnly = false) {
   const DATA_URL = "data/projects.json";
   const container = document.getElementById("projects-container");
-  console.log(container);
 
   var res = await fetch(DATA_URL);
   console.log(res);
@@ -13,8 +18,11 @@ export async function loadProjects() {
     throw new Error(errorMsg);
   }
   const projects = await res.json();
+  const projectsToRender = featuredOnly
+    ? projects.filter((p) => Boolean(p.featured))
+    : projects;
 
-  projects.forEach((project) => {
+  projectsToRender.forEach((project) => {
     console.log(project);
     let card = new Project(project);
     card.renderCard(container);
