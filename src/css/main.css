@@ -50,6 +50,8 @@ body {
 
 @media (max-width: 460px) {
   body {
-    margin: 0.75rem;
+    margin: 0;
+    box-shadow: unset;
+    border: unset;
   }
 }
