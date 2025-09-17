@@ -1,24 +1,24 @@
 :root {
-  --text: hsl(148, 37%, 10%);
-  --background: hsl(144, 37%, 92%);
-  --primary: hsl(147, 36%, 29%);
-  --secondary: hsl(223, 39%, 70%);
-  --accent: hsl(249, 38%, 43%);
+  --underlay: hsl(271, 54%, 80%);
+  --text: hsl(276, 53%, 10%);
+  --background: hsl(271, 51%, 92%);
+  --primary: hsl(275, 50%, 26%);
+  --secondary: hsl(330, 50%, 66%);
+  --accent: hsl(346, 50%, 40%);
 
-  --black: #0c090a;
+  --black: var(--text);
   --white: #faf3f6;
-
-  --text: var(var(--black));
+  --gray: #e8e8e8;
 }
 
 /* @media (prefers-color-scheme: dark) {
   :root {
-    --text: hsl(148, 37%, 90%);
-    --background: hsl(144, 35%, 15%);
-    --primary: hsl(147, 36%, 71%);
-    --secondary: hsl(223, 39%, 30%);
-    --accent: hsl(249, 38%, 57%);
+    --text: hsl(276, 53%, 90%);
+    --background: hsl(271, 51%, 8%);
+    --primary: hsl(275, 50%, 74%);
+    --secondary: hsl(330, 50%, 34%);
+    --accent: hsl(346, 50%, 60%);
 
-    --text: var(var(--white));
+    --black: var(--text);
   }
 } */

@@ -7,34 +7,39 @@
 @import url("./components/header.css");
 
 body {
-  margin: 0 auto;
-  margin: 1rem 2rem;
+  margin: 2rem;
   border: 4px solid var(--black);
   background: var(--background);
   color: var(--text);
   box-shadow: 1rem 1rem var(--black);
+  border-radius: 1rem;
+  contain: paint;
+  /* max-width: 1600px; */
 }
 
 .hero-section {
+  /* margin: 1rem; */
   text-align: center;
-  background: var(--primary);
+  height: 85vh;
+  /* background: var(--secondary);
+  border: 4px solid var(--black);
+  box-shadow: 0.5rem 0.5rem var(--black); */
   > .image {
     border: 4px solid var(--black);
     box-shadow: 0.5rem 0.5rem var(--black);
+    contain: paint;
+    border-radius: 1rem;
   }
 }
 
 .hero-text {
   margin-bottom: 1rem;
   > .title {
-    font-size: 2rem;
-    text-align: left;
+    font-size: 3.25rem;
+    text-align: right;
   }
   > .content {
-    background: var(--secondary);
-    padding: 0.5rem 1rem;
-    border: 4px solid var(--black);
-    text-align: justify;
+    text-align: right;
   }
   > .button {
     font-size: 1.1rem;
@@ -52,6 +57,9 @@ body {
   body {
     margin: 0;
     box-shadow: unset;
-    border: unset;
+    /* border: unset; */
+  }
+  .grid {
+    grid-template-columns: 1fr;
   }
 }

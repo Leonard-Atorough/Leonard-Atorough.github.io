@@ -1,6 +1,7 @@
 .container {
   padding: 1.5rem 2rem;
   margin-bottom: 2rem;
+  box-sizing: border-box;
 }
 
 @media (max-width: 460px) {

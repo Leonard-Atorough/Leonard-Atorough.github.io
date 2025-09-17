@@ -2,9 +2,8 @@
   position: sticky;
   top: 0;
   background: var(--background);
-  border-bottom: 4px solid var(--black);
   z-index: 10;
-  padding: 1rem 2rem;
+  padding: 2rem;
 }
 
 .hamburger-menu {
@@ -21,16 +20,18 @@
 
 .site-nav {
   > .item {
-    text-decoration: none;
     color: var(--text);
     font-weight: 600;
+    font-size: 1.2rem;
+    text-decoration: underline;
     padding: 0.25rem 0.5rem;
-    transition: background 0.5s;
+    transition: background 0.5s, color 0.25s;
     border-radius: 0.25rem;
 
     &:hover {
       background: var(--secondary);
-      transition: background 0.5s;
+      color: var(--white);
+      transition: background 0.5s, color 0.25s;
     }
   }
 }
