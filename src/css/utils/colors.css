@@ -2,9 +2,9 @@
   --underlay: hsl(271, 54%, 80%);
   --text: hsl(276, 53%, 10%);
   --background: hsl(271, 51%, 92%);
-  --primary: hsl(275, 50%, 26%);
-  --secondary: hsl(330, 50%, 66%);
-  --accent: hsl(346, 50%, 40%);
+  --primary: hsl(330, 50%, 66%);
+  --secondary: hsl(3, 62%, 75%);
+  --accent: hsl(32, 64%, 64%);
 
   --black: var(--text);
   --white: #faf3f6;
