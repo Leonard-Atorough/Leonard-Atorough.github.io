@@ -4,27 +4,29 @@
   max-width: 320px;
   height: auto;
   position: relative;
-  box-shadow: 0.5rem 0.5rem var(--black);
-}
+  box-shadow: 8px 8px var(--black);
+  border-radius: 1rem;
 
-.card-primary {
-  background: var(--primary);
-  color: var(--black);
-}
-.card-secondary {
-  background: var(--secondary);
-  color: var(--black);
-}
-.card-tertiary {
-  background: var(--tertiary);
-  color: var(--black);
+  &.-primary {
+    background: var(--primary);
+    color: var(--black);
+  }
+
+  &.-secondary {
+    background: var(--secondary);
+    color: var(--black);
+  }
+  &.-tertiary {
+    background: var(--tertiary);
+    color: var(--black);
+  }
 }
 
 .project-image {
   width: 100%;
   height: 70%;
-  border: 2px solid var(--black);
   overflow: hidden;
+  border-radius: 1rem;
 
   > .image {
     display: block;
@@ -37,12 +39,16 @@
 .project-content {
   width: 100%;
   max-height: 30%;
+  border-radius: 1rem;
+  background-color: var(--primary);
+  padding: 1rem;
 
   > .description {
     width: 100%;
     white-space: nowrap;
     text-overflow: ellipsis;
     overflow: hidden;
+    padding: 0.5rem;
 
     @supports (-webkit-line-clamp: 2) {
       white-space: initial;

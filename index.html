@@ -4,78 +4,57 @@
     <meta charset="UTF-8" />
     <title>Leonard Atorough - Aspiring Front-End Developer</title>
     <meta name="viewport" content="width=device-width, initial-scale=1" />
-    <link
-      rel="icon"
-      type="image/png"
-      href="/favicon/favicon-96x96.png"
-      sizes="96x96"
-    />
+    <link rel="icon" type="image/png" href="/favicon/favicon-96x96.png" sizes="96x96" />
     <link rel="icon" type="image/svg+xml" href="/favicon/favicon.svg" />
     <link rel="shortcut icon" href="/favicon/favicon.ico" />
-    <link
-      rel="apple-touch-icon"
-      sizes="180x180"
-      href="/favicon/apple-touch-icon.png"
-    />
+    <link rel="apple-touch-icon" sizes="180x180" href="/favicon/apple-touch-icon.png" />
     <link rel="manifest" href="/favicon/site.webmanifest" />
     <link rel="stylesheet" href="src/css/main.css" />
+    <style>
+      @import url("https://fonts.googleapis.com/css2?family=Sora:wght@100..800&display=swap");
+    </style>
   </head>
 
   <body>
-    <header
-      class="header-section flex flex-row align-center justify-between gap-4"
-    >
-      <button
-        id="nav-toggle"
-        class="flex flex-col gap-1 hamburger-menu btn -plain"
-        aria-label="Toggle navigation menu"
-        aria-controls="site-nav"
-        aria-expanded="false"
-      >
-        <span class="bar"></span>
-        <span class="bar"></span>
-        <span class="bar"></span>
-      </button>
-      <h1 class="title">Leonard Atorough</h1>
-      <nav
-        id="site-nav"
-        class="flex flex-row flex-col-md gap-4 site-nav"
-        aria-label="Site navigation menu"
-      >
-        <a class="item" aria-label="Projects" href="#projects">Projects</a>
-        <a class="item" aria-label="Skills" href="#skills">Skills</a>
-        <a class="item" aria-label="Experience" href="#experience"
-          >Experience</a
+    <header class="header-section flex flex-row align-center justify-between gap-4">
+      <div class="navbar-component">
+        <button
+          id="nav-toggle"
+          class="flex flex-col gap-1 hamburger-menu btn -plain"
+          aria-label="Toggle navigation menu"
+          aria-controls="site-nav"
+          aria-expanded="false"
         >
-        <a class="item" aria-label="Contact" href="#contact">Contact</a>
-      </nav>
-      <img src="" alt="dark mode" />
+          <span class="bar"></span>
+          <span class="bar"></span>
+          <span class="bar"></span>
+        </button>
+        <h1 class="title">Leonard Atorough</h1>
+        <nav
+          id="site-nav"
+          class="flex flex-row flex-col-md gap-4 site-nav"
+          aria-label="Site navigation menu"
+        >
+          <a class="item" aria-label="Projects" href="#projects">Projects</a>
+          <a class="item" aria-label="Skills" href="#skills">Skills</a>
+          <a class="item" aria-label="Experience" href="#experience">Experience</a>
+          <a class="item" aria-label="Contact" href="#contact">Contact</a>
+        </nav>
+      </div>
     </header>
 
     <main class="flex flex-col">
-      <section
-        id="hero"
-        class="hero-section container flex flex-row flex-col-sm gap-6"
-      >
-        <div class="basis-1/2 grow-0 image">
-          <img
-            src="assets/images/profile.jpg"
-            alt="Leonard Atorough's Profile Picture"
-          />
+      <section id="hero" class="hero-section container flex flex-row flex-col-sm gap-6">
+        <div class="image">
+          <img src="assets/images/profile.jpg" alt="Leonard Atorough's Profile Picture" />
         </div>
-        <div
-          class="hero-text flex flex-col align-start justify-center gap-6 basis-1/2 grow-0"
-        >
-          <h1 class="title">
-            Hello, World. I'm Leonard Atorough, an Aspiring Software Developer
-            Based in Scotland.
-          </h1>
+        <div class="hero-text flex flex-col align-start justify-center gap-6">
+          <h1 class="title">Hello World, I'm Leonard Atorough.</h1>
           <p class="content">
-            Hi there, welcome to my page. I'm an aspiring software developer
-            working on transitioning from Quality Assurance to Software
-            Engineering. Follow my journey here.
+            Hi there, welcome to my page. I'm an aspiring software developer working on
+            transitioning from Quality Assurance to Software Engineering. Follow my journey here.
           </p>
-          <button class="btn btn-primary button">See My Work</button>
+          <button class="btn btn-tertiary button">See My Work</button>
           <span class="flex flex-row gap-4">
             <h3>Socials:</h3>
             <a href=""><img alt="P" src="" /></a>
@@ -91,10 +70,7 @@
 
       <div id="modal-overlay" class="modal-overlay hidden"></div>
 
-      <section
-        id="contact"
-        class="container flex flex-col align-center justify-center gap-4"
-      >
+      <section id="contact" class="container flex flex-col align-center justify-center gap-4">
         <h1>Contact Me</h1>
         <form id="contact-form" class="flex flex-col gap-4">
           <div>

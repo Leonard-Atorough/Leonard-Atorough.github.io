@@ -2,9 +2,8 @@
   position: sticky;
   top: 0;
   background: var(--primary);
-  color: var(--white);
-  z-index: 10;
-  padding: 2rem;
+  color: var(--text);
+  z-index: 100;
 }
 
 .hamburger-menu {
@@ -19,20 +18,33 @@
   }
 }
 
+.navbar-component {
+  width: 100%;
+  max-width: 1280px;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+  background-color: var(--white);
+  padding: 1rem;
+  border-radius: 1rem;
+  border: 2px solid var(--black);
+  box-shadow: 0.25rem 0.25rem var(--black);
+}
+
 .site-nav {
   > .item {
     color: inherit;
+    max-width: 1600px;
+    margin: 0 auto;
     font-weight: 600;
     font-size: 1.2rem;
-    text-decoration: underline;
     padding: 0.25rem 0.5rem;
-    transition: background 0.5s, color 0.25s;
+    transition: all 0.2s ease-out;
     border-radius: 0.25rem;
 
     &:hover {
       background: var(--secondary);
-      /* color: var(--text); */
-      transition: background 0.5s, color 0.25s;
+      color: var(--white);
     }
   }
 }

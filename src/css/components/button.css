@@ -1,12 +1,13 @@
 @import url("../utils/colors.css");
 
 .btn {
-  /* display: inline-block; */
   padding: 1rem 2rem;
   border: 2px solid var(--black);
-  border-radius: 0.5rem;
+  border-radius: 1rem;
   box-shadow: 0.25rem 0.25rem 0.1rem var(--black);
   font-weight: 600;
+  font-family: "Sora", sans-serif;
+  font-optical-sizing: auto;
   &.-plain {
     background: var(--background);
   }

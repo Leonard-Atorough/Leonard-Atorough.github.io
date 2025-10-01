@@ -1,24 +1,12 @@
 :root {
-  --underlay: hsl(271, 54%, 80%);
-  --text: hsl(276, 53%, 10%);
-  --background: hsl(271, 51%, 92%);
-  --primary: hsl(330, 50%, 66%);
-  --secondary: hsl(3, 62%, 75%);
-  --accent: hsl(32, 64%, 64%);
+  --text: #01040e;
+  --background: #f3f4fe;
+  --primary: #4763d4;
+  --secondary: #f9917f;
+  --accent: #f6f340;
 
   --black: var(--text);
   --white: #faf3f6;
   --gray: #e8e8e8;
+  --underlay: var(--primary);
 }
-
-/* @media (prefers-color-scheme: dark) {
-  :root {
-    --text: hsl(276, 53%, 90%);
-    --background: hsl(271, 51%, 8%);
-    --primary: hsl(275, 50%, 74%);
-    --secondary: hsl(330, 50%, 34%);
-    --accent: hsl(346, 50%, 60%);
-
-    --black: var(--text);
-  }
-} */
